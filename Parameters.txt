@@ -1,0 +1,28 @@
+The name of the fitness function should be declared in line 270.
+Breedung Threshold is initialised in line 278.
+
+Lines 265 and 267 are changed depending on the funtion: 
+The values I used are:
+
+Sphere: 
+stepind *= 0.5
+stepvol *= 0.5
+
+Beale:
+stepind *= 0.98
+stepvol *= 0.9
+
+Booth:
+stepind *= 0.98
+stepvol *= 0.9
+
+Ackley:
+stepind *= 0.8
+stepvol *= 0.95
+
+Rosenbrock:
+stepind *= 0.99
+stepvol *= 0.9
+
+
+Feel free to experiment with the values of the parameters yourself :>
